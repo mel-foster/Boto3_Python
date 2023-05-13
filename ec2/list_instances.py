@@ -25,4 +25,4 @@ for reservation in response["Reservations"]:
             print(instance["KeyName"])
             
         if "IamInstanceProfile" in instance:
-            print(instance["IamInstanceProfile"])
+            print(instance["IamInstanceProfile"]["Id"], instance["IamInstanceProfile"]["Arn"])
