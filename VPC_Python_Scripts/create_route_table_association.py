@@ -12,4 +12,5 @@ association = ec2.associate_route_table(
 
 print(association["AssociationId"])
 
-#This script is used for associating a subnet to a route table
+#This script is used for associating a subnet to a route table.
+#Make sure to update the Route Table ID & Subnet ID that you want to associate together
