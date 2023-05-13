@@ -29,3 +29,12 @@ if __name__ =='__main__':
     keys = list_objects_keys(s3, bucket, prefix="folder/")
     delete_objects(s3, bucket, keys)
     
+    #To only delte what's inside of a folder:
+    #prefix = "folder/foldera/"
+    #keys = list_objects_keys(s3, bucket, prefix=prefix)
+    #To print diffrence between keys 
+    #print(keys)
+    #keys = [key for key in keys if "/" not in key[len(prefix):]]
+    #print(keys)
+    #delete_objects(s3, bucket, keys)
+    
