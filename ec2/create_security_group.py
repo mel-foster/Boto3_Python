@@ -9,3 +9,5 @@ response = ec2.create_security_group(
 )
 
 print(response["GroupId"])
+
+#Note you will need to update the VPCID to have this script run correctly
