@@ -31,3 +31,6 @@ response = ec2.authorize_security_group_ingress(
 )
 
 print(response)
+
+#This script is used to create the security group rules.
+#Will need to update the Security Group ID after you create a new one
