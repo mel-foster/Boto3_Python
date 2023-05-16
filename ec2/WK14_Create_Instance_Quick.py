@@ -9,3 +9,4 @@ instance = ec2.create_instances(
     InstanceType = 't2.micro',
     )
 print(instance)
+
